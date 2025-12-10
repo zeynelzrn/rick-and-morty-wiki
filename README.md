@@ -1,16 +1,47 @@
-# React + Vite
+# Rick and Morty Wiki - SE 3355 Midterm
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Student:** Zeynel Zeren  
+**Course:** SE 3355 - Web Programming  
+**Live Demo:** [https://rickandmorty-zeynelzeren.vercel.app/](https://rickandmorty-zeynelzeren.vercel.app/)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## About The Project
 
-## React Compiler
+This is a web application I developed for my Web Programming midterm project. It acts as a Wiki for the Rick and Morty universe, allowing users to browse characters, locations, and episodes using the public Rick and Morty API.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+I built this project to practice **React**, **Tailwind CSS**, and **API integration** concepts we learned in class.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Characters Page:** Lists all characters with their images and status. You can search by name or filter by status/gender.
+- **Locations & Episodes:** Separate pages to browse locations and episodes with pagination.
+- **Detail View:** Clicking on a character shows detailed information about them.
+- **Responsive Design:** Works on mobile and desktop. I added a custom hamburger menu for mobile view.
+- **Dark Mode:** The UI is designed with a dark theme to match the show's aesthetic.
+
+## Tech Stack
+
+* **React (Vite)**
+* **Tailwind CSS** for styling
+* **React Router DOM** for navigation
+* **Rick and Morty API** for data
+
+## How to Run Locally
+
+If you want to run this project on your machine:
+
+1.  **Clone the repo:**
+    ```bash
+    git clone [https://github.com/zeynelzrn/rick-and-morty-wiki.git](https://github.com/zeynelzrn/rick-and-morty-wiki.git)
+    ```
+
+2.  **Install packages:**
+    ```bash
+    npm install
+    ```
+
+3.  **Start the server:**
+    ```bash
+    npm run dev
+    ```
